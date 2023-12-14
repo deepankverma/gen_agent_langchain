@@ -38,7 +38,7 @@ The study initiates with the construction of a bi-directional graph, utilizing G
 
 ![Graph_and_working](outputs/Graph_and_working.png)
 
-## 2. Agent Framework Development
+## 2. Agent Framework Development [Jupyter Notebooks will be added shortly!]
 
 The agent framework is created, integrating LangChain boilerplate code and memory modules inspired by the work of [Park, Joon Sung, et al.](https://dl.acm.org/doi/abs/10.1145/3586183.3606763). The framework encompasses prompts, logic, and memory components. The [`generative_agent.py`](generative_agents/generative_agent.py) script establishes the overall structure, while [`memory.py`](generative_agents/memory.py) is responsible for creating the memory module.
 

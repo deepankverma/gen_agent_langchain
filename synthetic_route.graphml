@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="direction" attr.type="string"/>
+<key id="d0" for="node" attr.name="stview" attr.type="string"/>
+<graph edgedefault="directed"><node id="A">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37220,4.888163&amp;heading=192.02&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="B">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36791,4.888490&amp;heading=126.72&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="C">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37226,4.887343&amp;heading=5.89&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="D">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36813,4.887931&amp;heading=70.04&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="E">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37386,4.880128&amp;heading=76.94&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="F">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37528,4.878675&amp;heading=148.00&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="G">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37117,4.879570&amp;heading=144.18&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="H">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37387,4.895408&amp;heading=289.18&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="I">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37497,4.881495&amp;heading=257.00&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="J">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36510,4.885954&amp;heading=121.92&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="K">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36825,4.897534&amp;heading=93.58&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="L">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36340,4.888652&amp;heading=281.48&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="M">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37394,4.885238&amp;heading=98.13&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="N">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36876,4.879876&amp;heading=140.99&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="O">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.37076,4.886696&amp;heading=185.76&amp;pitch=-0.76&amp;key=</data>
+</node>
+<node id="P">
+  <data key="d0">https://maps.googleapis.com/maps/api/streetview?size=400x400&amp;location=52.36391,4.881759&amp;heading=299.26&amp;pitch=-0.76&amp;key=</data>
+</node>
+<edge source="A" target="B">
+  <data key="d1">right</data>
+</edge>
+<edge source="A" target="E">
+  <data key="d1">forward</data>
+</edge>
+<edge source="B" target="A">
+  <data key="d1">left</data>
+</edge>
+<edge source="B" target="C">
+  <data key="d1">right</data>
+</edge>
+<edge source="B" target="F">
+  <data key="d1">forward</data>
+</edge>
+<edge source="C" target="B">
+  <data key="d1">left</data>
+</edge>
+<edge source="C" target="D">
+  <data key="d1">right</data>
+</edge>
+<edge source="C" target="G">
+  <data key="d1">forward</data>
+</edge>
+<edge source="D" target="C">
+  <data key="d1">left</data>
+</edge>
+<edge source="D" target="H">
+  <data key="d1">forward</data>
+</edge>
+<edge source="E" target="A">
+  <data key="d1">backward</data>
+</edge>
+<edge source="E" target="I">
+  <data key="d1">forward</data>
+</edge>
+<edge source="E" target="F">
+  <data key="d1">right</data>
+</edge>
+<edge source="F" target="E">
+  <data key="d1">left</data>
+</edge>
+<edge source="F" target="J">
+  <data key="d1">forward</data>
+</edge>
+<edge source="F" target="B">
+  <data key="d1">backward</data>
+</edge>
+<edge source="F" target="G">
+  <data key="d1">right</data>
+</edge>
+<edge source="G" target="F">
+  <data key="d1">left</data>
+</edge>
+<edge source="G" target="C">
+  <data key="d1">backward</data>
+</edge>
+<edge source="G" target="H">
+  <data key="d1">right</data>
+</edge>
+<edge source="G" target="K">
+  <data key="d1">forward</data>
+</edge>
+<edge source="H" target="G">
+  <data key="d1">left</data>
+</edge>
+<edge source="H" target="D">
+  <data key="d1">backward</data>
+</edge>
+<edge source="H" target="L">
+  <data key="d1">forward</data>
+</edge>
+<edge source="I" target="E">
+  <data key="d1">backward</data>
+</edge>
+<edge source="I" target="J">
+  <data key="d1">right</data>
+</edge>
+<edge source="I" target="M">
+  <data key="d1">forward</data>
+</edge>
+<edge source="J" target="I">
+  <data key="d1">left</data>
+</edge>
+<edge source="J" target="F">
+  <data key="d1">backward</data>
+</edge>
+<edge source="J" target="K">
+  <data key="d1">right</data>
+</edge>
+<edge source="J" target="N">
+  <data key="d1">forward</data>
+</edge>
+<edge source="K" target="J">
+  <data key="d1">left</data>
+</edge>
+<edge source="K" target="O">
+  <data key="d1">forward</data>
+</edge>
+<edge source="K" target="G">
+  <data key="d1">backward</data>
+</edge>
+<edge source="K" target="L">
+  <data key="d1">right</data>
+</edge>
+<edge source="L" target="K">
+  <data key="d1">left</data>
+</edge>
+<edge source="L" target="H">
+  <data key="d1">backward</data>
+</edge>
+<edge source="L" target="P">
+  <data key="d1">forward</data>
+</edge>
+<edge source="M" target="I">
+  <data key="d1">backward</data>
+</edge>
+<edge source="M" target="N">
+  <data key="d1">right</data>
+</edge>
+<edge source="N" target="M">
+  <data key="d1">left</data>
+</edge>
+<edge source="N" target="J">
+  <data key="d1">backward</data>
+</edge>
+<edge source="N" target="O">
+  <data key="d1">right</data>
+</edge>
+<edge source="O" target="N">
+  <data key="d1">left</data>
+</edge>
+<edge source="O" target="K">
+  <data key="d1">backward</data>
+</edge>
+<edge source="O" target="P">
+  <data key="d1">right</data>
+</edge>
+<edge source="P" target="O">
+  <data key="d1">left</data>
+</edge>
+<edge source="P" target="L">
+  <data key="d1">backward</data>
+</edge>
+</graph></graphml>

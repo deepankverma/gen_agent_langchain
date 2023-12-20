@@ -1,3 +1,7 @@
+## Modified from Langchain library. You can refer the definitions of the GenerativeAgent and GenerativeAgentMemory 
+## in the reference documentation for the following imports, focusing on add_memory and summarize_related_memories methods.
+## Also: https://github.com/langchain-ai/langchain/blob/master/cookbook/generative_agents_interactive_simulacra_of_human_behavior.ipynb
+
 import logging
 import re
 from datetime import datetime

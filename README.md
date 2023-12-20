@@ -26,7 +26,7 @@ with chatgpt-3.5 as the LLM..
 ## Installation
 
 - The code was run on Windows 11 with no specific requirements other than Pytorch which is required for several visual foundational models.
-- A environment file is supplied with the addtional inormation on versions of libraries in which the code was run.
+- A environment file [`langchain_environment.yml`](langchain_environment.yml) is supplied with the addtional inormation on versions of libraries in which the code was run.
 
 ## GenAI Agent Framework
 
@@ -42,7 +42,7 @@ The study initiates with the construction of a bi-directional graph, utilizing G
 
 The agent framework is created, integrating LangChain boilerplate code and memory modules inspired by the work of [Park, Joon Sung, et al.](https://dl.acm.org/doi/abs/10.1145/3586183.3606763). The framework encompasses prompts, logic, and memory components. The [`generative_agent.py`](generative_agents/generative_agent.py) script establishes the overall structure, while [`memory.py`](generative_agents/memory.py) is responsible for creating the memory module.
 
-## 3. Visual Foundational Models
+## 3. Visual Foundational Models [Jupyter Notebooks will be added shortly!]
 
 Foundational models dedicated to tasks like Segmentation, Classification, and Object Detection are employed. The relevant files are stored in [`image_description/`](image_description/). Agents utilize the constructed graph to retrieve images, and the visual inference models decode the information embedded within these images.
 

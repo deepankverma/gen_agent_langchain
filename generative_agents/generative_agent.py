@@ -1,3 +1,7 @@
+## Modified from Langchain library. You can refer the definitions of the GenerativeAgent and GenerativeAgentMemory 
+## in the reference documentation for the following imports, focusing on add_memory and summarize_related_memories methods.
+## Also: https://github.com/langchain-ai/langchain/blob/master/cookbook/generative_agents_interactive_simulacra_of_human_behavior.ipynb
+
 import re
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
@@ -22,7 +26,7 @@ class GenerativeAgent(BaseModel):
     traits: str = "N/A"
     """Permanent traits to ascribe to the character."""
     status: str
-    """The traits of the character you wish not to change."""
+    """The status of the character."""
     description: str = "N/A"
     """The backstory of the character revolves around what personality a character has."""
     memory: GenerativeAgentMemory
@@ -132,39 +136,7 @@ Relevant context:
     def _clean_response(self, text: str) -> str:
         return re.sub(f"^{self.name} ", "", text.strip()).strip()
 
-    def generate_reaction(
-        self, observation: str, now: Optional[datetime] = None
-    ) -> Tuple[bool, str]:
-        """React to a given observation."""
-        call_to_action_template = (
-            "Should {agent_name} react to the observation, and if so,"
-            + " what would be an appropriate reaction? Respond in one line."
-            + ' If the action is to engage in dialogue, write:\nSAY: "what to say"'
-            + "\notherwise, write:\nREACT: {agent_name}'s reaction (if anything)."
-            + "\nEither do nothing, react, or say something but not both.\n\n"
-        )
-        full_result = self._generate_reaction(
-            observation, call_to_action_template, now=now
-        )
-        result = full_result.strip().split("\n")[0]
-        # AAA
-        self.memory.save_context(
-            {},
-            {
-                self.memory.add_memory_key: f"{self.name} observed "
-                f"{observation} and reacted by {result}",
-                self.memory.now_key: now,
-            },
-        )
-        if "REACT:" in result:
-            reaction = self._clean_response(result.split("REACT:")[-1])
-            return False, f"{self.name} {reaction}"
-        if "SAY:" in result:
-            said_value = self._clean_response(result.split("SAY:")[-1])
-            return True, f"{self.name} said {said_value}"
-        else:
-            return False, result
-        
+       
     def generate_reaction_for_route(
         self, observation: str, now: Optional[datetime] = None
     ) -> Tuple[str, str]:

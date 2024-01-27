@@ -12,7 +12,7 @@ model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-101")
 def det(img):
     # download the image and convert to PIL object
 
-    key = "AIzaSyC28vZubuuLq0i2spQ0JQL4Eo4OIrw6Fnw"
+    key = "YOUR_GOOGLE_API_KEY"
     
     image = Image.open(requests.get((img + key),stream = True).raw).convert('RGB') ####uncomment it for url based analysis
 

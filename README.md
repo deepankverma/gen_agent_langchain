@@ -38,11 +38,11 @@ The study initiates with the construction of a bi-directional graph, utilizing G
 
 ![Graph_and_working](outputs/Graph_and_working.png)
 
-## 2. Agent Framework Development [Jupyter Notebooks will be added shortly!]
+## 2. Agent Framework Development [Other Jupyter Notebooks will be added shortly!]
 
-The agent framework is created, integrating LangChain boilerplate code and memory modules inspired by the work of [Park, Joon Sung, et al.](https://dl.acm.org/doi/abs/10.1145/3586183.3606763). The framework encompasses prompts, logic, and memory components. The [`generative_agent.py`](generative_agents/generative_agent.py) script establishes the overall structure, while [`memory.py`](generative_agents/memory.py) is responsible for creating the memory module.
+The agent framework is created, integrating LangChain boilerplate code and memory modules inspired by the work of [Park, Joon Sung, et al.](https://dl.acm.org/doi/abs/10.1145/3586183.3606763). The framework encompasses prompts, logic, and memory components. The [`generative_agent.py`](generative_agents/generative_agent.py) script establishes the overall structure, while [`memory.py`](generative_agents/memory.py) is responsible for creating the memory module. The [`lang.ipynb`](lang.ipynb) notebook provides a working structure of the developed agent framework.
 
-## 3. Visual Foundational Models [Jupyter Notebooks will be added shortly!]
+## 3. Visual Foundational Models 
 
 Foundational models dedicated to tasks like Segmentation, Classification, and Object Detection are employed. The relevant files are stored in [`image_description/`](image_description/). Agents utilize the constructed graph to retrieve images, and the visual inference models decode the information embedded within these images.
 

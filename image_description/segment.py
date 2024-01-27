@@ -14,7 +14,7 @@ import requests
 extractor = SegformerFeatureExtractor.from_pretrained("nvidia/segformer-b5-finetuned-cityscapes-1024-1024")
 model = SegformerForSemanticSegmentation.from_pretrained("nvidia/segformer-b5-finetuned-cityscapes-1024-1024")
 
-key = "AIzaSyC28vZubuuLq0i2spQ0JQL4Eo4OIrw6Fnw"
+key = "YOUR_GOOGLE_API_KEY"
 
 # img = "https://maps.googleapis.com/maps/api/streetview?size=600x400&location=6.86803,79.880366&heading=329.16&pitch=-0.76&key="
 

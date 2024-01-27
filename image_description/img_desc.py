@@ -14,7 +14,7 @@ model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-capt
 
 def caption(img):
    
-    key = "AIzaSyC28vZubuuLq0i2spQ0JQL4Eo4OIrw6Fnw"
+    key = "YOUR_GOOGLE_API_KEY"
 
     i_image = img ### for reading images from drive
     

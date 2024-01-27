@@ -18,7 +18,7 @@ from image_description.places365 import wideresnet
 
 def places365(img):
 
-    key = "AIzaSyC28vZubuuLq0i2spQ0JQL4Eo4OIrw6Fnw"
+    key = "YOUR_GOOGLE_API_KEY"
     
     i_image = Image.open(requests.get((img + key),stream = True).raw).convert('RGB')  ####uncomment it for url based analysis
 

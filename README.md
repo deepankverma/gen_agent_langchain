@@ -84,4 +84,4 @@ I am deeply appreciative of the open-source community and the developers behind 
 
 ## Citing this work
 
-The associated manuscript with this work is currently being peer-reviewed.
+- Verma, Deepank, Olaf Mumm, and Vanessa Miriam Carlow. "Generative agents in the streets: Exploring the use of Large Language Models (LLMs) in collecting urban perceptions." arXiv preprint arXiv:2312.13126 (2023) [Link to the Paper](https://arxiv.org/abs/2312.13126).
